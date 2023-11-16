@@ -15,6 +15,12 @@ typedef struct linkedList{
 
 
 void insert_head(linkedList_t* list, int val);
+void insert_tail(linkedList_t* list, int val);
+
 void delete_list(linkedList_t* list);
+
+node_t* search(const linkedList_t* list, int key);
+
+void printList(linkedList_t list);
 
 #endif 
